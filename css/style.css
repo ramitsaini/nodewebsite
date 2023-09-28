@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Indie+Flower&family=Kumar+One+Outline&family=Londrina+Outline&family=Montserrat:wght@100;400;600;800&family=Pacifico&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+:root{
+	--main-color-primary: #ffb82b;
+	--main-color-secondary: #adff2f; /*rgb(255,165,0)*/
+	--main-color-white: #ffffff;
+	--main-color-black: #000000;
+	--main-color-red: #f12424;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    padding: 10px;
+    background-color: var(--main-color-red);
+
+}
+nav span{
+    position: absolute;
+    font-size: 35px;
+    right: 10%;
+}
+
+nav button{ 
+
+    margin: 0 10px 0 10px;
+    padding: 10px;
+    border: 3px solid var(--main-color-black);
+    color: var(--main-color-black);
+    border-radius: 50%;
+   
+}
+
+nav button:hover{
+    background-color: var(--main-color-secondary);
+    /* color: var(--main-color-white); */
+    border-color: var(--main-color-black);
+}
+
+.hero{
+    background-image: url('../assets/ice-creame.jpeg');
+    min-height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.hero p{
+    font-family: 'Croissant One';
+    background-color: rgba(255,255,255,0.6);
+    color: var(--main-color-red);
+    font-size: 80px;
+    
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    max-width: 80%;
+    left: 10%;
+}
+
+.about{
+    background-image: url('../assets/smilie-495999_1280.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0 20px 0;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 10px; */
+}
+
+.about h1{
+    padding: 10px;
+    font-family: 'Indie Flower';
+    color: #f12424;
+}
+
+.about p{
+    font-family: 'Montserrat';
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-weight: 900;
+    /* position: absolute;
+    max-width: 80%;
+    left: 10px; */
+}
+
+.flavours{
+    background-color:var(--main-color-white);
+    text-align: center;
+    padding: 20px;
+
+}
+
+.flavours h2{
+    padding: 20px;
+    font-size: 35px;
+    font-weight: 900;
+    font-family: 'Indie Flower';
+    color: var(--main-color-red);
+;
+}
+
+.flavours img{
+max-width: 200px;
+max-height: auto;
+padding: 30px;
+}
+
+.flavours span{
+display: inline-block;
+}
+
+.service{
+    text-align: center;
+    padding: 10px;
+    background-color: var(--main-color-primary);
+
+}
+.service h3{
+    font-size: 35px;
+    font-weight: 900;
+    color: var(--main-color-red);
+    font-family: 'Indie Flower';
+}
+.service img{
+    display: inline-block;
+    max-width: 200px;
+    max-height: auto;
+    padding: 30px;
+
+}
+.service span{
+    display: inline-block;
+    
+}
+
+
+
+.contact{
+    background-image: url('../assets/pablo-merchan-montes-MXovqM130UI-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0 20px 0;
+    background-attachment: fixed;
+}
+
+.contact table{
+    padding: 10px;
+    text-align: center;
+    border: 2px solid var(--main-color-secondary);
+    margin: 40px 0 20px 0;
+    position: relative;
+    left: 35%;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.contact table td{
+    padding: 10px;
+    border: 1px dashed var(--main-color-red);
+}
+
+footer{
+    background-color: var(--main-color-black);
+    padding: 20px 0 40px 0;
+    text-align: center;
+    color: var(--main-color-white);
+}
